@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.site {
+    float: left;
+    width: 100%;
+}
+
+.sidebar {
+    /* width: 150px; */
+    width: 10%;
+    background-color: rgba(25, 23, 24, 1);
+    float: left;
+    height: 1015px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sidebar ul li {
+    padding: 14px 16px;
+    border-bottom: 1px solid #ccc;
+}
+.sidebar ul li:hover {
+    background-color: #ccc;
+}
+.sidebar ul li:hover a {
+    color: #fff;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.site-main {
+    float: left;
+    width: 90%;
+}
+
+.site-main .site-main-logo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.site-main .site-main-logo img {
+    width: 310px;
+    height: 122px;
+}
+
+.site-main-content {
+    text-align: center;
+    background-color: rgba(239, 239, 239, 1);
+    margin: 0 129px;
+}
+.site-main-content h5 {
+    padding: 38px 0 18px;
+    font-size: 18px;
+}
+
+.site-main-content p {
+    padding: 0 260px 38px;
+    font-size: 16px;
+}
+
+.site-main-list {
+    margin: 0 129px;
+    display: flex;
+    float: left;
+    padding-top: 40px;
+    margin-bottom: 182px;
+}
+
+.site-main-list .list-item h5 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.list-item .list-icon img {
+    width: 128px;
+    height: 128px;
+}
+
+.list-icon img {
+    padding-right: 16px;
+}
+
+.list-item h5 {
+    padding-bottom: 18px;
+}
+
+.list-icon img,
+.list-icon .p2 {
+    display: flex;
+    float: left;
+}
+
+.list-item-left {
+    margin-left: 50px;
+}
+
+.main-footer {
+    display: flex;
+    float: left;
+    /* margin-left: 129px; */
+    color: rgba(62, 62, 62, 1);
+    border-top: 1px solid rgba(222, 222, 222, 1);
+    width: 90%;
+}
+
+.main-footer p {
+    margin-left: 129px;
+    padding: 30px 0;
+}
